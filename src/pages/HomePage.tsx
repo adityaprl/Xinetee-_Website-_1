@@ -13,9 +13,7 @@ const HomePage = () => {
         </div>
         
         <div className="container max-w-5xl mx-auto text-center">
-          <Badge variant="secondary" className="mb-4 px-3 py-1 text-xs my-[32px] mx-[85px]">
-            Blockchain Storage Solution
-          </Badge>
+          <Badge variant="secondary" className="mb-4 text-xs py-[31px] px-[207px] my-[30px] mx-[106px]">XINETEE</Badge>
           
           <h1 className="mb-6 animate-fade-in-up">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-purple via-neon-blue to-neon-pink">
