@@ -1,12 +1,9 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Shield, Lock, Database } from "lucide-react";
-
 const HomePage = () => {
-  return (
-    <div className="space-y-20 py-8">
+  return <div className="space-y-20 py-8">
       {/* Hero Section */}
       <section className="relative py-16 md:py-24 overflow-hidden">
         {/* Background Elements */}
@@ -16,7 +13,7 @@ const HomePage = () => {
         </div>
         
         <div className="container max-w-5xl mx-auto text-center">
-          <Badge variant="secondary" className="mb-4 px-3 py-1 text-xs">
+          <Badge variant="secondary" className="mb-4 px-3 py-1 text-xs my-[32px] mx-[85px]">
             Blockchain Storage Solution
           </Badge>
           
@@ -26,12 +23,16 @@ const HomePage = () => {
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-muted-foreground animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
+          <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-muted-foreground animate-fade-in-up" style={{
+          animationDelay: "0.1s"
+        }}>
             The next generation of file storage. Powered by blockchain technology 
             and triple-layer encryption protocols.
           </p>
           
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up" style={{
+          animationDelay: "0.2s"
+        }}>
             <Button size="lg" className="w-full sm:w-auto bg-primary hover:bg-primary/80 text-primary-foreground glow glow-purple">
               <Link to="/dashboard">Get Started</Link>
             </Button>
@@ -65,7 +66,9 @@ const HomePage = () => {
             </p>
           </div>
           
-          <div className="glass-panel p-6 rounded-lg flex flex-col items-center text-center animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
+          <div className="glass-panel p-6 rounded-lg flex flex-col items-center text-center animate-fade-in-up" style={{
+          animationDelay: "0.1s"
+        }}>
             <div className="w-12 h-12 rounded-full bg-neon-blue/20 flex items-center justify-center mb-4">
               <Database className="h-6 w-6 text-neon-blue" />
             </div>
@@ -76,7 +79,9 @@ const HomePage = () => {
             </p>
           </div>
           
-          <div className="glass-panel p-6 rounded-lg flex flex-col items-center text-center animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+          <div className="glass-panel p-6 rounded-lg flex flex-col items-center text-center animate-fade-in-up" style={{
+          animationDelay: "0.2s"
+        }}>
             <div className="w-12 h-12 rounded-full bg-neon-pink/20 flex items-center justify-center mb-4">
               <Lock className="h-6 w-6 text-neon-pink" />
             </div>
@@ -131,8 +136,6 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default HomePage;
