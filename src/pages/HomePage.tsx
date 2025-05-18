@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -101,7 +100,7 @@ const HomePage = () => {
       <section className="container max-w-5xl mx-auto py-12">
         <div className="text-center mb-8">
           <Badge variant="outline" className="mb-2">See It In Action</Badge>
-          <h2 className="mb-4">Watch How Xinete Works</h2>
+          <h2 className="mb-4">Watch How Xinetee Works</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             A quick demonstration of our technology and how it keeps your data safe.
           </p>
