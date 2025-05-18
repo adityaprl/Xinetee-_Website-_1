@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Sheet, SheetContent } from "@/components/ui/sheet";
-import { Dashboard, Upload, CheckCircle, Home, LogOut } from "lucide-react";
+import { LayoutDashboard, Upload, CheckCircle, Home, LogOut } from "lucide-react";
 
 interface SidebarProps {
   isOpen: boolean;
@@ -23,7 +23,7 @@ const Sidebar = ({ isOpen, setIsOpen }: SidebarProps) => {
     {
       path: "/dashboard",
       name: "Dashboard",
-      icon: Dashboard,
+      icon: LayoutDashboard,
     },
     {
       path: "/upload",
