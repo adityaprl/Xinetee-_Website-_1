@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -13,7 +14,11 @@ const HomePage = () => {
         </div>
         
         <div className="container max-w-5xl mx-auto text-center">
-          <Badge variant="secondary" className="mb-4 text-xs py-[31px] px-[207px] my-[30px] mx-[106px]">XINETEE</Badge>
+          <div className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 animate-fade-in-up">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-purple via-neon-blue to-neon-pink glow-purple">
+              XINETEE
+            </span>
+          </div>
           
           <h1 className="mb-6 animate-fade-in-up">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-purple via-neon-blue to-neon-pink">
